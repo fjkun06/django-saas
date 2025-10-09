@@ -1,0 +1,1 @@
+docker run -d --name django-sass -p 8000:8000 --mount type=bind,source=./test,target=/usr/src/app/testx/ fjkun06/django-sass:v1.0
